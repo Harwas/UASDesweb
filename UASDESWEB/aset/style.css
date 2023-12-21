@@ -1,6 +1,7 @@
 .jumbotron{
     background-image: url('img/bg2.jpg');
     background-attachment: fixed;
+    color: white;
     background-size: cover;
     background-position: 0 -50px;
     height: 450px;
@@ -8,3 +9,30 @@
     text-shadow: 100px;
 }
 
+#section{
+    padding-top: 5px;
+}
+
+#paket{
+    background-image: url('img/bg1.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#akomodasi{
+    background-image: url('img/bg2.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#galeri{
+    background-image: url('img/bg1.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#produk{
+    background-image: url('img/bg1.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+}
