@@ -10,29 +10,38 @@
 }
 
 #section{
-    padding-top: 5px;
+    padding-top: 5rem;
+    
 }
 
 #paket{
+    padding-top: 5rem;
     background-image: url('img/bg1.jpg');
     background-size: cover;
     background-attachment: fixed;
+    
 }
 
 #akomodasi{
+    padding-top: 5rem;
     background-image: url('img/bg2.jpg');
     background-size: cover;
     background-attachment: fixed;
+    
 }
 
 #galeri{
+    padding-top: 5rem;
     background-image: url('img/bg1.jpg');
     background-size: cover;
     background-attachment: fixed;
+    
 }
 
 #produk{
+    padding-top: 5rem;
     background-image: url('img/bg1.jpg');
     background-size: cover;
     background-attachment: fixed;
+   
 }
