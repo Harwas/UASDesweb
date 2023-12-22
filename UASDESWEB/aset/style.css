@@ -1,47 +1,70 @@
+body{
+    
+    font-family: 'Poppins', sans-serif;
+}
+
 .jumbotron{
-    background-image: url('img/bg2.jpg');
+    background-image: url('img/Bg/bg2.jpg');
     background-attachment: fixed;
     color: white;
     background-size: cover;
     background-position: 0 -50px;
-    height: 450px;
-    padding-top: 5rem;
+    height: 600px;
+    padding-top: 2rem;
     text-shadow: 100px;
 }
+/*Card Paket Wisata*/
 
-#section{
-    padding-top: 5rem;
-    
+
+.card{
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
+    transition: all 0.3s;
 }
 
-#paket{
-    padding-top: 5rem;
-    background-image: url('img/bg1.jpg');
-    background-size: cover;
-    background-attachment: fixed;
-    
+.card.body{
+    padding: 25px;
+    margin-top: -15px;
+}
+.card-img-top{
+    border-radius: 30px;
+    padding: 10px;
+}
+/*Card Paket Wisata*/
+
+.card:hover{
+    transform: scale(1.05);
 }
 
-#akomodasi{
-    padding-top: 5rem;
-    background-image: url('img/bg2.jpg');
-    background-size: cover;
-    background-attachment: fixed;
-    
+.btn-primary {
+    border-radius: 40px;
+    width: 120px;
 }
 
-#galeri{
+h8,h3{
+    color: rgb(0,91,228);
+}
+
+.btn-primary:hover{
+background-color: black;
+}
+/*Card*/
+
+#about{
+    padding-top: ;
+}
+
+#home{
+    padding-top: 2rem;
+}
+#location{
     padding-top: 5rem;
-    background-image: url('img/bg1.jpg');
-    background-size: cover;
-    background-attachment: fixed;
-    
+}
+
+#pakages{
+    padding-top: 5rem;
 }
 
 #produk{
     padding-top: 5rem;
-    background-image: url('img/bg1.jpg');
-    background-size: cover;
-    background-attachment: fixed;
-   
 }
